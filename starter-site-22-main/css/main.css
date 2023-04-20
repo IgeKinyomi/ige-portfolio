@@ -12,12 +12,17 @@ html {
 }
 
 .nav-head {
+font-family: 'Raleway', sans-serif;
 padding: 16px;
 display: flex;
 align-items: center;
 background-color: rgb(209, 173, 230);
 display: flex;
 justify-content: space-around;
+}
+
+h1 {
+  font-family: 'Cookie', cursive;
 }
 
 .nav-main {

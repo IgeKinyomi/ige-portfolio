@@ -1,1 +1,88 @@
 /* Place CSS styles here */
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+  
+
+.logoheader {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-head {
+padding: 16px;
+display: flex;
+align-items: center;
+background-color: rgb(209, 173, 230);
+display: flex;
+justify-content: space-around;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.grid-setup {
+ display: grid;
+grid-template-areas:
+        'header header header header header header'
+        'left left middle middle right right'
+        'footer footer footer footer footer footer';
+grid-gap: 15px;
+border: thin;
+border-style: solid;
+padding: 50px;
+}
+
+.grid-setup-header{
+grid-area: header;
+background-color: #dbd47f;
+padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.grid-setup-left,
+.grid-setup-middle,
+.grid-setup-right {
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.grid-setup-left {
+    grid-area: left;
+  }
+
+  /* Style the middle column */
+  .grid-setup-middle {
+    grid-area: middle;
+  }
+  
+  /* Style the right column */
+  .grid-setup-right {
+    grid-area: right;
+  }
+  
+  /* Style the footer */
+  .grid-setup-footer {
+    grid-area: footer;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .grid-setup-container  {
+      grid-template-areas:
+        'header header header header header header'
+        'left left left left left left'
+        'middle middle middle middle middle middle'
+        'right right right right right right'
+        'footer footer footer footer footer footer';
+    }
+  }
+  

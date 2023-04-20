@@ -43,7 +43,7 @@ grid-area: header;
 background-color: #dbd47f;
 padding: 30px;
     text-align: center;
-    font-size: 35px;
+    font-size: 12px;
 }
 
 .grid-setup-left,

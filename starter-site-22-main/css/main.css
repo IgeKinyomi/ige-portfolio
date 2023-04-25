@@ -132,10 +132,9 @@ padding: 30px;
 }
 
 .haunted-house{
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
 /*apply to work page images*/
 /*border-style: outset;
     padding: 10px;

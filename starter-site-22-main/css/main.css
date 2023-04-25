@@ -130,6 +130,12 @@ padding: 30px;
   list-style-type: none;
   padding-left: 0;
 }
+
+.haunted-house{
+display: flex;
+justify-content: center;
+}
+
 /*apply to work page images*/
 /*border-style: outset;
     padding: 10px;
@@ -158,6 +164,7 @@ padding: 30px;
   .faq-words{
     padding: 15px;
   }
+  
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {

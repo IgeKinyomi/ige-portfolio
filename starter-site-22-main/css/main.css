@@ -4,6 +4,11 @@ html {
     font-size: 15px;
     line-height: 1.4;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
   
 
 .logoheader {
@@ -135,6 +140,18 @@ padding: 30px;
   text-align: center;
 }
 
+.item-image img{
+  max-width: 500px;
+}
+
+.candy-container{
+  text-align: center;
+}
+
+.candy-image img{
+  max-width: 500px;
+}
+.
 /*apply to work page images*/
 /*border-style: outset;
     padding: 10px;

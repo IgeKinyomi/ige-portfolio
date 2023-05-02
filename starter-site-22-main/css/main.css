@@ -135,7 +135,7 @@ padding: 30px;
   list-style-type: none;
   padding-left: 0;
 }
-
+/*day image*/
 .item-container{
   text-align: center;
 }
@@ -143,7 +143,7 @@ padding: 30px;
 .item-image img{
   max-width: 500px;
 }
-
+/* candy house drawing*/
 .candy-container{
   text-align: center;
 }
@@ -151,6 +151,26 @@ padding: 30px;
 .candy-image img{
   max-width: 500px;
 }
+
+/* night digital page*/
+
+.item-container2{
+  text-align: center;
+}
+
+.item-image2 img{
+  max-width: 500px;
+}
+
+/* figure drawing */
+.item-container4{
+  text-align: center;
+}
+
+.item-image4 img{
+  max-width: 500px;
+}
+
 .
 /*apply to work page images*/
 /*border-style: outset;

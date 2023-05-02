@@ -162,16 +162,49 @@ padding: 30px;
   max-width: 500px;
 }
 
-/* figure drawing */
-.item-container4{
+/* environment figure drawing */
+.environment-container{
   text-align: center;
 }
 
-.item-image4 img{
+.environment-image img{
   max-width: 500px;
 }
 
-.
+/*mandala page*/
+.mandala-container{
+  text-align: center;
+}
+
+.mandala-image img{
+  max-width: 500px;
+}
+
+/*stamp page*/
+.stamp-container{
+  text-align: center;
+}
+
+.stamp-image img{
+  max-width: 500px;
+}
+
+/*senior capstone page*/
+.senior-container{
+  text-align: center;
+}
+
+.senior-image img{
+  max-width: 500px;
+}
+/*capricho page*/
+.capricho-container{
+  text-align: center;
+}
+
+.capricho-image img{
+  max-width: 500px;
+}
 /*apply to work page images*/
 /*border-style: outset;
     padding: 10px;

@@ -94,7 +94,7 @@ grid-area: header;
 background-color: #dbd47f;
 padding: 30px;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .grid-setup-left,
@@ -135,6 +135,23 @@ padding: 30px;
   list-style-type: none;
   padding-left: 0;
 }
+
+/*about page*/
+.entire-about{
+  text-align: center;
+}
+
+.body-about{
+  font-family: 'Raleway', sans-serif;
+}
+.fun-facts{
+  text-align: initial;
+  margin-left: 50px;
+}
+.fact-info{
+  text-align: initial;
+}
+
 /*day image*/
 .item-container{
   text-align: center;
@@ -215,13 +232,20 @@ padding: 30px;
   /* Style the middle column */
   .grid-setup-middle {
     grid-area: middle;
+    font-size: 30px;
   }
   
   /* Style the right column */
   .grid-setup-right {
     grid-area: right;
+    font-size: 30px;
   }
-  
+
+  /*style left column*/
+  .grid-setup-left{
+    font-size: 30px; 
+  }
+ 
   /* Style the footer */
   .grid-setup-footer {
     grid-area: footer;

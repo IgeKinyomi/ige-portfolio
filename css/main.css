@@ -1,0 +1,279 @@
+/* Place CSS styles here */
+html {
+    color: #222;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+.logoheader {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-head {
+font-family: 'Cookie', cursive;
+padding: 16px;
+display: flex;
+align-items: center;
+background-color: rgb(209, 173, 230);
+display: flex;
+justify-content: space-around;
+}
+
+h1 {
+  font-family: 'Cookie', cursive;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-family: 'Cookie', cursive;
+  display: block;
+  font-size: 35px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.contact-form {
+  display: block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  min-width: 400px;
+  border: 1px solid rgb(84, 6, 87);
+  border-radius: 10px;
+  display: block;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover {
+  border: 1px solid darkgray;
+}
+
+.contact-page {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.grid-setup {
+ display: grid;
+grid-template-areas:
+        'header header header header header header'
+        'left left middle middle right right'
+        'footer footer footer footer footer footer';
+grid-gap: 15px;
+border: thin;
+border-style: solid;
+padding: 50px;
+}
+
+.grid-setup-header{
+grid-area: header;
+background-color: #dbd47f;
+padding: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.grid-setup-left,
+.grid-setup-middle,
+.grid-setup-right {
+  padding: 30px;
+  height: 100px;
+  width: 100px; /* Should be removed. Only for demonstration */
+}
+.grid-setup-left {
+    grid-area: left;
+  }
+
+/*Work page design component*/
+.overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: rgba(127, 17, 224, .25);
+  max-width: fit-content;
+}
+.overlay-wrapper img{
+  width: 100%;
+  height: auto;
+}
+
+.double-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-gap: 0.25rem;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/*about page*/
+.entire-about{
+  text-align: center;
+}
+
+.body-about{
+  font-family: 'Raleway', sans-serif;
+}
+.fun-facts{
+  text-align: initial;
+  margin-left: 50px;
+}
+.fact-info{
+  text-align: initial;
+}
+
+/*day image*/
+.item-container{
+  text-align: center;
+}
+
+.item-image img{
+  max-width: 500px;
+}
+/* candy house drawing*/
+.candy-container{
+  text-align: center;
+}
+
+.candy-image img{
+  max-width: 500px;
+}
+
+/* night digital page*/
+
+.item-container2{
+  text-align: center;
+}
+
+.item-image2 img{
+  max-width: 500px;
+}
+
+/* environment figure drawing */
+.environment-container{
+  text-align: center;
+}
+
+.environment-image img{
+  max-width: 500px;
+}
+
+/*mandala page*/
+.mandala-container{
+  text-align: center;
+}
+
+.mandala-image img{
+  max-width: 500px;
+}
+
+/*stamp page*/
+.stamp-container{
+  text-align: center;
+}
+
+.stamp-image img{
+  max-width: 500px;
+}
+
+/*senior capstone page*/
+.senior-container{
+  text-align: center;
+}
+
+.senior-image img{
+  max-width: 500px;
+}
+/*capricho page*/
+.capricho-container{
+  text-align: center;
+}
+
+.capricho-image img{
+  max-width: 500px;
+}
+/*apply to work page images*/
+/*border-style: outset;
+    padding: 10px;
+    max-width: -webkit-fill-available;
+    margin: 10px;
+    */
+
+  /* Style the middle column */
+  .grid-setup-middle {
+    grid-area: middle;
+    font-size: 30px;
+  }
+  
+  /* Style the right column */
+  .grid-setup-right {
+    grid-area: right;
+    font-size: 30px;
+  }
+
+  /*style left column*/
+  .grid-setup-left{
+    font-size: 30px; 
+  }
+ 
+  /* Style the footer */
+  .grid-setup-footer {
+    grid-area: footer;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .faq-words{
+    padding: 15px;
+  }
+  
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .grid-setup-container  {
+      grid-template-areas:
+        'header header header header header header'
+        'left left left left left left'
+        'middle middle middle middle middle middle'
+        'right right right right right right'
+        'footer footer footer footer footer footer';
+    }
+    @media screen and (max-width: 300px) {
+      .item-container{
+
+      }
+      
+    }
+  }
+  

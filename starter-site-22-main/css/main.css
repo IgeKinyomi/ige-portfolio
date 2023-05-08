@@ -77,6 +77,9 @@ h2 {
     justify-content: space-between;
     gap: 16px;
 }
+.grid-mobile{
+
+}
 
 .grid-setup {
  display: grid;
@@ -270,6 +273,15 @@ padding: 30px;
         'right right right right right right'
         'footer footer footer footer footer footer';
     }
+    @media (min-width: 300px) {
+      .grid-setup-container  {
+        grid-template-areas:
+          'header header header '
+          'left left left '
+          'middle middle middle '
+          'right right right '
+          'footer footer footer ';
+      }
     @media screen and (max-width: 300px) {
       .item-container{
 
@@ -277,4 +289,4 @@ padding: 30px;
       
     }
   }
-  
+}
